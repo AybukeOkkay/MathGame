@@ -1,0 +1,18 @@
+inherited Form2_LgXhdpiPh: TForm2_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 0
+  inherited Rectangle1: TRectangle
+    inherited Label1: TLabel
+      TextSettings.Font.StyleExt = {00070000000200000004000000}
+    end
+  end
+  inherited Rectangle2: TRectangle
+    inherited Label2: TLabel
+      TextSettings.Font.StyleExt = {00070000000200000004000000}
+    end
+  end
+  inherited Label3: TLabel
+    TextSettings.Font.StyleExt = {00070000000200000004000000}
+  end
+end

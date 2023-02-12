@@ -1,0 +1,77 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 746
+  ClientWidth = 508
+  Fill.Color = xFFF2D5D5
+  Fill.Kind = Solid
+  Position = ScreenCenter
+  Visible = True
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object Rectangle1: TRectangle
+    Align = Center
+    Fill.Color = xFFF9CC8D
+    Size.Width = 193.000000000000000000
+    Size.Height = 129.000000000000000000
+    Size.PlatformDefault = False
+    OnClick = Button1Click
+    object Label1: TLabel
+      Align = Client
+      StyledSettings = []
+      Size.Width = 193.000000000000000000
+      Size.Height = 129.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Segoe Script'
+      TextSettings.Font.Size = 22.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000200000004000000}
+      TextSettings.FontColor = xFFCC8F39
+      TextSettings.HorzAlign = Center
+      Text = 'BASLA'
+      TabOrder = 0
+      OnClick = Button1Click
+    end
+  end
+  object Rectangle2: TRectangle
+    Fill.Color = xFFE4FCAD
+    Position.X = 32.000000000000000000
+    Position.Y = 432.000000000000000000
+    Size.Width = 97.000000000000000000
+    Size.Height = 42.000000000000000000
+    Size.PlatformDefault = False
+    OnClick = Button2Click
+    object Label2: TLabel
+      Align = Client
+      StyledSettings = []
+      Size.Width = 97.000000000000000000
+      Size.Height = 42.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Segoe Script'
+      TextSettings.Font.Size = 22.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000200000004000000}
+      TextSettings.FontColor = xFFB0D658
+      TextSettings.HorzAlign = Center
+      Text = 'CIKIS'
+      TabOrder = 0
+      OnClick = Button2Click
+    end
+  end
+  object Label3: TLabel
+    StyledSettings = []
+    Position.X = 24.000000000000000000
+    Position.Y = 24.000000000000000000
+    Size.Width = 313.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Segoe Script'
+    TextSettings.Font.Size = 22.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000200000004000000}
+    TextSettings.FontColor = xFFC45959
+    Text = 'MATEMAT'#304'K OYUNU'
+    TabOrder = 2
+  end
+end

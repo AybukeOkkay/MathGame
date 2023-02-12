@@ -1,0 +1,80 @@
+object Form3: TForm3
+  Left = 0
+  Top = 0
+  Caption = 'Form3'
+  ClientHeight = 745
+  ClientWidth = 511
+  Position = ScreenCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object Rectangle1: TRectangle
+    Align = Client
+    Fill.Color = xFFF2D5D5
+    Size.Width = 511.000000000000000000
+    Size.Height = 745.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Label1: TLabel
+    Align = Center
+    StyledSettings = [Family]
+    Size.Width = 315.000000000000000000
+    Size.Height = 140.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 22.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.FontColor = xFFC55858
+    TextSettings.HorzAlign = Center
+    TabOrder = 1
+  end
+  object Rectangle2: TRectangle
+    Fill.Color = xFFEAB0FC
+    Position.X = 48.000000000000000000
+    Position.Y = 520.000000000000000000
+    Size.Width = 97.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    ParentShowHint = False
+    ShowHint = False
+    OnClick = Label2Click
+    object Label2: TLabel
+      Align = Client
+      StyledSettings = [Family]
+      Size.Width = 97.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = xFFAD14DC
+      TextSettings.HorzAlign = Center
+      Text = 'CIKIS'
+      TabOrder = 0
+      OnClick = Label2Click
+    end
+  end
+  object Rectangle3: TRectangle
+    Fill.Color = xFFF5A6A6
+    Position.X = 48.000000000000000000
+    Position.Y = 456.000000000000000000
+    Size.Width = 129.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    OnClick = Label3Click
+    object Label3: TLabel
+      Align = Client
+      StyledSettings = []
+      Size.Width = 129.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Segoe Print'
+      TextSettings.Font.Size = 22.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000200000004000000}
+      TextSettings.FontColor = xFFD73131
+      TextSettings.HorzAlign = Center
+      Text = 'Devam Et'
+      TabOrder = 0
+      OnClick = Label3Click
+    end
+  end
+end
